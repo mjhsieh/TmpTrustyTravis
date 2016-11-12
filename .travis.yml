@@ -5,12 +5,12 @@ dist: trusty
 sudo: false
 group: beta
 #
-before_cache: true
-cache: true
-before_install: true
+#before_cache: true
+#cache: true
+#before_install: true
 install:
     - bin/travisbuild.sh
-before_script: true
-script:
-        - bin/travistest.sh
-after_script: true
+#before_script: true
+#script:
+#        - bin/travistest.sh
+#after_script: true
