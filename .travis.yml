@@ -11,6 +11,6 @@ group: beta
 install:
     - bin/travisbuild.sh
 #before_script: true
-#script:
-#        - bin/travistest.sh
+script:
+        - bin/travistest.sh
 #after_script: true
