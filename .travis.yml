@@ -1,8 +1,8 @@
 ########################
 ## Author: Mengjuei Hsieh
-#language: cpp
-#distro: trusty
-#sudo: false
+language: cpp
+distro: trusty
+sudo: false
 ##
 #before_cache: true
 #cache: true
@@ -13,8 +13,3 @@
 #script:
 #        - bin/travistest.sh
 #after_script: true
-language: ruby
-rvm:
-  - 2.2
-  - jruby
-  - rbx-2
